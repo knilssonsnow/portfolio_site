@@ -1,0 +1,36 @@
+/* Header elements and nav for top bar */
+:root {
+	--lb: #3078bf;
+	--blue: #3a6c9f;
+	--db: #406080;
+	--bg: #859bb2;
+	--lbg: #cfdae6;
+	--black: #000;
+}
+
+header {
+	background-image: url(.\assets\images\header_banner.png);
+}
+.hnav ul li {
+	display: inline;
+	text-decoration: none;
+	margin: 15px;
+	font-size: larger;
+	color: var(--black);
+}
+.hnav ul li:hover {
+	background-color: var(--bg);
+	text-align: end;
+	border-radius: 5px;
+	border: solid #000 1px;
+}
+.hnav ul {
+	background-color: var(--lbg);
+	text-align: end;
+}
+h1 {
+	align-items: center;
+	justify-content: center;
+	display: block;
+	text-align: center;
+}
