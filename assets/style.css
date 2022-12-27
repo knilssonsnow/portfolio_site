@@ -7,10 +7,10 @@
 	--lbg: #cfdae6;
 	--black: #000;
 }
-
-header {
-	background-image: url(.\assets\images\header_banner.png);
+body {
+	font-family: "Times New Roman", Times, serif;
 }
+
 .hnav ul li {
 	display: inline;
 	text-decoration: none;
@@ -33,4 +33,7 @@ h1 {
 	justify-content: center;
 	display: block;
 	text-align: center;
+	margin: 15px;
+	font-size: 45px;
 }
+/* project section */
