@@ -10,6 +10,7 @@
 body {
 	font-family: "Times New Roman", Times, serif;
 }
+/* Header and nav bar */
 
 .hnav ul li {
 	display: inline;
@@ -36,4 +37,20 @@ h1 {
 	margin: 15px;
 	font-size: 45px;
 }
-/* project section */
+/* About me section */
+
+.am {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 105%;
+}
+.ahead {
+	margin: 12px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100%;
+}
