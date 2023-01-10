@@ -11,11 +11,15 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 /* Header and nav bar */
-
+header {
+	background-image: url("./images/19449741.jpg");
+	background-size: cover;
+}
 .hnav ul li {
 	display: inline;
 	text-decoration: none;
 	margin: 15px;
+	padding: 10px;
 	font-size: larger;
 	color: var(--black);
 }
@@ -28,6 +32,12 @@ body {
 .hnav ul {
 	background-color: var(--lbg);
 	text-align: end;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.hnav ul li a {
+	text-decoration: none;
+	color: var(--black);
 }
 h1 {
 	align-items: center;
@@ -37,10 +47,37 @@ h1 {
 	margin: 15px;
 	font-size: 45px;
 }
+/* Projects section */
+.proj {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 105%;
+}
+.projhead {
+	margin: 12px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100%;
+	align-items: center;
+	flex: 25%;
+}
+.projbody {
+	border-left: var(--black) solid thin;
+	padding-left: 80px;
+	margin: 15px;
+	flex: 75%;
+	align-items: flex-start;
+}
 /* About me section */
 
 .am {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
 	font-size: 20px;
@@ -53,4 +90,63 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	line-height: 100%;
+	align-items: center;
+	flex: 25%;
+}
+.abody {
+	border-left: var(--black) solid thin;
+	padding-left: 80px;
+	margin: 15px;
+	flex: 75%;
+	align-items: flex-start;
+}
+
+/* Footer Section */
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	border-top: #000 solid;
+	padding-top: 20px;
+}
+/* resume footer */
+.rfooteritem {
+	display: flex;
+	padding: 5px;
+	font-size: 17px;
+}
+.rfooteritem:hover {
+	background-color: var(--bg);
+	text-align: end;
+	border-radius: 5px;
+	border: solid #000 1px;
+}
+/* linkedin footer */
+.lfooteritem {
+	display: flex;
+	padding: 5px;
+	font-size: 17px;
+}
+.lfooteritem:hover {
+	background-color: var(--bg);
+	text-align: end;
+	border-radius: 5px;
+	border: solid #000 1px;
+}
+/* github footer */
+.gfooteritem {
+	display: flex;
+	padding: 5px;
+	font-size: 17px;
+}
+.gfooteritem:hover {
+	background-color: var(--bg);
+	text-align: end;
+	border-radius: 5px;
+	border: solid #000 1px;
+}
+
+.footer li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
 }
