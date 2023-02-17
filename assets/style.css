@@ -69,11 +69,12 @@ h1 {
 	justify-content: space-evenly;
 }
 .proj1card {
+	background-color: lightgray;
 	display: inline-block;
 	justify-content: space-evenly;
-
-	width: 33%;
-	height: 33%;
+	margin: 5px;
+	width: 30%;
+	height: 30%;
 }
 .projhead {
 	margin: 12px;
